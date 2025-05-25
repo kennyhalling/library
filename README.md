@@ -1,32 +1,27 @@
 # Overview
+This is a demo program for an application that could theoretically be used by visitors at a library to easily navigate the books offered there. This program provides a way for users to easily view, search for, check out, and return books belonging to a library.
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I wrote this software to test my skills with C#, and to refresh myself on the things that I've learned in the language over the years. I wanted to push myself to learn new things in the language as well, such as reading and writing to files outside the program.
 
-{Provide a description of the software that you wrote to demonstrate the C# language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/DZJhc1PElx8)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+To develop this software, I used VS Code on my Windows 11 laptop.
 
-{Describe the programming language that you used and any libraries.}
+I wrote the software in the object-oriented language C# and used the Newtonsoft.Json library to serialize and deserialize Json in my program. The book data itself comes from the Open Library API that I fetched prior to writing the program.
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Open Library API](https://openlibrary.org/dev/docs/api/search)
+- [C# Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
 
-- Item 1
-- Item 2
-- Item 3
+- I want to make it so that users can check out books by title rather than just by serial number.
+- I want to make it possible for a user to add a new book to the database provided they have the right employee credentials.
+- I want to make a GUI that is more sleek and user friendly than a terminal.
